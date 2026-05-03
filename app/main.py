@@ -37,6 +37,7 @@ def create_user():
     users.append(new_user)
     return jsonify(new_user), 201
 
+#comentario de prueba inicial workflow
 
 @app.route("/users/<int:user_id>", methods=["GET"])
 def get_user(user_id):
