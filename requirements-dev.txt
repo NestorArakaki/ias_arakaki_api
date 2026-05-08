@@ -2,3 +2,4 @@ Flask
 gunicorn
 pytest
 bandit
+psycopg2-binary
