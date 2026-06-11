@@ -93,6 +93,7 @@ def create_user():
     finally:
         conn.close()
 
+#COMENTARIO DE MODIFICAION
 
 @app.route("/users/<int:user_id>", methods=["PUT"])
 def update_user(user_id):
